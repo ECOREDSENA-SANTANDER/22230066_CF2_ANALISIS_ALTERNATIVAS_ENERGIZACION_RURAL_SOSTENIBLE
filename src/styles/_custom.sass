@@ -1,30 +1,225 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 20%
-    right: 10%
-  &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 8%
+    right: 50%
+  &-2
+    animation: float1 2.0s ease-in-out infinite alternate
+    position: absolute
+    top: 68%
+    right: 75%
+  &-3
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 72%
+    right: 5%
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
+
+.col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+  flex: 0 0 auto !important
+  width: 58.33333333% !important
+.banner-principal__img 
+  padding-bottom: 0 !important;
+.banner-principal__row .banner-principal__img 
+    width: 33%;
+    position: relative;
+    bottom: -48px;
+.banner-principal .tarjeta 
+    background-size: auto;
+    background-position: right;
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+  color: $white !important  
+
+
+.banner-interno__fondo
+    background-image: url(../assets/curso/portada/fondo-banner-interno.svg) !important
+
+
+.banner-interno__titulo h1, .banner-interno__titulo h2, 
+.banner-interno__titulo h3, .banner-interno__titulo h4, 
+.banner-interno__titulo h5, .banner-interno__titulo h6
+  color: $white !important  
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
+figcaption 
+    font-weight: normal !important
+    background-color: #E8E8E8 !important
+.bloque-texto-g.color-adicional-1
+    background-color: #C5D9B9;
+.bloque-texto-g.color-adicional-2
+    background-color: #E5F6FF;
+.tabla-b.color-primario thead tr
+    background-color: $color-primario !important
+.tabla-b tr:nth-child(even), .tabla-c tr:nth-child(even)
+    background-color: #fff !important
+.tabla-b tr:nth-child(odd), .tabla-c tr:nth-child(odd)
+    background-color: #F0F5ED
+
+.tabla-a.color-acento-contenido thead 
+    background-color: #E5F6FF !important
+.tabla-a.tabla-cus th,
+.tabla-a.tabla-cus td
+    text-align: left !important
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #E8F6EB
+      background-repeat: no-repeat
+      background-size: cover
+      h4 
+        color: $color-sistema-texto
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 5.85rem ))
+    background-color: #E8F6EB
+    h4
+      color: $color-sistema-texto
+  @media (min-width:390px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.8em
+      
+/**************************************************************/
+/***CUSTOM STYLES***/
+/**************************************************************/
+.p-full-width
+  padding: 3rem 2.5rem!important;
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+.bg-fondo
+  &-1
+    background-image: url(../assets/curso/temas/bg/2.svg)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+.bg-color
+  &-1
+    background-color: #DFF8FD
+  &-2
+    background-color: #003B59
+  &-3
+    background-color: #E8F6EB
+  &-4
+    background-color: #99DCFF
+  &-5
+    background-color: #fff
+  &-6
+    background-color: #F0F5ED
+  &-7
+    background-color: $color-acento-contenido
+
+.br
+  &-1
+    border-radius: 20px !important
+  &-2
+    border-right: 1px solid #AFAFAF !important
+    border-bottom: 1px solid #AFAFAF !important
+  &-3
+    border-bottom: 1px solid #AFAFAF !important
+
+.ml-cus
+  &-1
+    margin-left: 30px !important
+      
+.hcard
+  &-1
+    height: 400px !important
+
+.w-cus
+  &-1
+    width: fit-content
+  &-2
+    width: 21%      
+.titulo-icono
+  background-color: #E5F6FF
+  border-radius: 10px
+  width: fit-content
+  position: relative;
+  left: 15px;
+  &-text
+    margin-right: 10px
+    margin-left: 40px;
+    color: $color-sistema-texto !important
+  &-img
+    padding: 0px
+    position: absolute
+    top: -6px
+    left: 5px
+
+
+    &:before
+      position: relative
+      border-radius: 60px
+      @media screen and (max-width: 767px)
+        height: 280%
+    img
+      position: relative
+      max-width: 50px
+/**************************************************************/
+/*Media Queries*/  
+/**************************************************************/
+
+//// DESKTOP SMALL 1400--------------------------------------
+@media screen and (max-width: $bp-min-xxl)
+  .mb-cus
+    margin-bottom: 2em  !important 
   
 
-.banner-principal .tarjeta
-  background-position: left 50% !important
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
-.banner-interno__titulo__icono i
-  color: $color-primario
-figcaption
-  font-weight: normal
- 
+//// TABLET 992--------------------------------------
+@media screen and (max-width: $bp-max-md)
+  .mb-cus
+    margin-bottom: 2em  !important  
+  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info 
+    width: 95% !important;
+  .banner-principal .container.tarjeta
+   background-image: none !important
+  .banner-principal__img
+    display: none !important
+  .bloque-texto-g 
+    padding-top: 50px !important;
+  .hcard
+    &-1
+      height: 480px !important
+  
+  
+//// TABLET MINI 768--------------------------------------
+@media screen and (max-width: $bp-min-md)
+  .mb-cus
+    margin-bottom: 2em  !important  
+
+  
+
+//// MOBILE 576--------------------------------------
+@media screen and (max-width: $bp-min-sm)
+  .mb-cus
+    margin-bottom: 2em  !important
+  .banner-principal .tarjeta
+    background-color: $color-primario !important
+  .bloque-texto-g 
+    padding-top: 20px !important;
+  .hcard
+    &-1
+      height: auto !important
+  .mb-cus-2
+    margin-bottom: 2em  !important  
+
