@@ -1,225 +1,266 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 3.0s ease-in-out infinite alternate
     position: absolute
-    top: 8%
-    right: 50%
+    top: 30%
+    right: 58%
+    width: 100px
   &-2
-    animation: float1 2.0s ease-in-out infinite alternate
-    position: absolute
-    top: 68%
-    right: 75%
-  &-3
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 72%
-    right: 5%
+    top: 55%
+    right: 78%
+    width: 100px
+  &-3
+    animation: float1 2.0s ease-in-out infinite alternate
+    position: absolute
+    top: 54%
+    right: 10%
+    width: 100px
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+  
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
-.banner-principal__img 
-  padding-bottom: 0 !important;
-.banner-principal__row .banner-principal__img 
-    width: 33%;
-    position: relative;
-    bottom: -48px;
-.banner-principal .tarjeta 
-    background-size: auto;
-    background-position: right;
-
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
-  color: $white !important  
+  width: 53% !important
+  @media screen and (max-width: $bp-max-md)
+    width: 95% !important
 
 
-.banner-interno__fondo
-    background-image: url(../assets/curso/portada/fondo-banner-interno.svg) !important
 
-
-.banner-interno__titulo h1, .banner-interno__titulo h2, 
-.banner-interno__titulo h3, .banner-interno__titulo h4, 
-.banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $white !important  
+.banner-principal__row .banner-principal__img
+  width: 620px !important
+  @media screen and (max-width: $bp-max-xl)
+    width: 400px !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
-figcaption 
-    font-weight: normal !important
-    background-color: #E8E8E8 !important
-.bloque-texto-g.color-adicional-1
-    background-color: #C5D9B9;
-.bloque-texto-g.color-adicional-2
-    background-color: #E5F6FF;
-.tabla-b.color-primario thead tr
-    background-color: $color-primario !important
-.tabla-b tr:nth-child(even), .tabla-c tr:nth-child(even)
-    background-color: #fff !important
-.tabla-b tr:nth-child(odd), .tabla-c tr:nth-child(odd)
-    background-color: #F0F5ED
+  color: black !important   
+.banner-interno__titulo__icono i
+  color: $color-primario
+figcaption
+  font-weight: normal
 
-.tabla-a.color-acento-contenido thead 
-    background-color: #E5F6FF !important
-.tabla-a.tabla-cus th,
-.tabla-a.tabla-cus td
-    text-align: left !important
 
-.crd_hover_txt
-  position: relative  
-  padding: 0 !important
-  overflow: hidden !important  
-  &:hover    
-    .crd_hover_txt--body   
-      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
-      transform: translateY(0)
-      background-color: #E8F6EB
-      background-repeat: no-repeat
-      background-size: cover
-      h4 
-        color: $color-sistema-texto
-  .crd_hover_txt--body
-    position: absolute
-    padding: 1.5rem
-    bottom: 0    
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
-    transform: translateY(calc( 100% - 5.85rem ))
-    background-color: #E8F6EB
-    h4
-      color: $color-sistema-texto
-  @media (min-width:390px) and (max-width:1400px)  
-    .crd_hover_txt--body
-      p
-        font-size: 0.8em
-      
-/**************************************************************/
-/***CUSTOM STYLES***/
-/**************************************************************/
-.p-full-width
-  padding: 3rem 2.5rem!important;
-.bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-.bg-fondo
-  &-1
-    background-image: url(../assets/curso/temas/bg/2.svg)
-    background-size: cover
-    background-repeat: no-repeat
-    background-position: center
-.bg-color
-  &-1
-    background-color: #DFF8FD
-  &-2
-    background-color: #003B59
-  &-3
-    background-color: #E8F6EB
-  &-4
-    background-color: #99DCFF
-  &-5
-    background-color: #fff
-  &-6
-    background-color: #F0F5ED
-  &-7
-    background-color: $color-acento-contenido
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+      padding-right: 5% !important
+    h1, p
+      color: $black
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+    h1, p
+      color: $black
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
 
-.br
-  &-1
-    border-radius: 20px !important
-  &-2
-    border-right: 1px solid #AFAFAF !important
-    border-bottom: 1px solid #AFAFAF !important
-  &-3
-    border-bottom: 1px solid #AFAFAF !important
 
-.ml-cus
-  &-1
-    margin-left: 30px !important
-      
-.hcard
-  &-1
-    height: 400px !important
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
 
-.w-cus
-  &-1
-    width: fit-content
-  &-2
-    width: 21%      
-.titulo-icono
+
+.titulo-sexto
+  border-left: 10px solid
+  padding: 6px 0 6px 8px
+  border-left-color: #00A8FF !important
+
+
+//INTRO
+
+.bg1
+  background-color: #DFF8FD
+
+
+//TEMA1
+
+
+.bloque-texto-g.color-primario 
   background-color: #E5F6FF
-  border-radius: 10px
+
+
+.fa-lightbulb:before 
+  content: url('../assets/curso/tema1/ico.svg')
+
+
+.bg2
+  background-color: #E5F6FF
+  border-radius: 14px
+
+
+.tabla-a thead 
+    border-top: 6px solid #00A8FF
+    color: black
+    background-color: #E5F6FF
+    text-align: center
+.tabla-a th
+    border-color: #E5F6FF
+.tabla-a.tab1
+  table th 
+    padding: 20px 15px
+  table td 
+    padding: 16px 15px
+.tabla-a
+  table
+    width: 100%
+    table-layout: fixed      
+    border-collapse: collapse
+    @media only screen and (max-width: 767px)
+      min-width: 1200px 
+    @media only screen and (min-width: 768px) and (max-width: 1023px)
+      min-width: 1200px 
+    td, th
+      overflow-wrap: break-word
+      word-wrap: break-word
+      white-space: normal 
+      vertical-align: top
+      text-align: left
+.tab1
+  th:nth-child(1) 
+    width: 30%  
+  th:nth-child(2) 
+    width: 70%
+.left
+  text-align: left
+
+
+.bg3
+  background-color: #E5F6FF
+
+
+.tab2
+  th:nth-child(1)
+    width: 12%
+  th:nth-child(2)
+    width: 20%
+  th:nth-child(3)
+    width: 16%
+  th:nth-child(4)
+    width: 16%
+  th:nth-child(5)
+    width: 16%
+  th:nth-child(6)
+    width: 20%
+
+
+.tab3
+  th:nth-child(1)
+    width: 20%
+  th:nth-child(2)
+    width: 20%
+  th:nth-child(3)
+    width: 20%
+  th:nth-child(4)
+    width: 20%
+  th:nth-child(5)
+    width: 20%
+
+
+.tab4
+  th:nth-child(1)
+    width: 25%
+  th:nth-child(2)
+    width: 37%
+  th:nth-child(3)
+    width: 38%
+
+
+.titulo
+  background-color: #E5F6FF
+  border-radius: 50px 20px 20px 50px
   width: fit-content
-  position: relative;
-  left: 15px;
-  &-text
-    margin-right: 10px
-    margin-left: 40px;
-    color: $color-sistema-texto !important
-  &-img
-    padding: 0px
-    position: absolute
-    top: -6px
-    left: 5px
+  padding: 10px 30px 10px 50px
+  position: relative
+  display: inline-flex
+  align-items: center
+  margin-left: 30px
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    padding: 10px 20px 10px 50px
+    margin-left: 25px
+  @media only screen and (max-width: 767px)
+    padding: 8px 15px 8px 50px
+    margin-left: 20px
+    width: calc(100% - 20px)
+    border-radius: 40px 15px 15px 40px
+.titulo img
+  width: 60px
+  height: 60px
+  position: absolute
+  top: 31%
+  left: -30px
+  transform: translateY(-50%)
+  object-fit: contain
+  z-index: 1
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    width: 55px
+    height: 55px
+    left: -25px
+    top: 36%
+  @media only screen and (max-width: 767px)
+    width: 55px
+    height: 55px
+    left: -20px
+    top: 50%
 
 
-    &:before
-      position: relative
-      border-radius: 60px
-      @media screen and (max-width: 767px)
-        height: 280%
-    img
-      position: relative
-      max-width: 50px
-/**************************************************************/
-/*Media Queries*/  
-/**************************************************************/
+//TEMA2
 
-//// DESKTOP SMALL 1400--------------------------------------
-@media screen and (max-width: $bp-min-xxl)
-  .mb-cus
-    margin-bottom: 2em  !important 
-  
+.bloque-texto-g.color-secundario 
+  background-color: #A6DBB1
 
-//// TABLET 992--------------------------------------
-@media screen and (max-width: $bp-max-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info 
-    width: 95% !important;
-  .banner-principal .container.tarjeta
-   background-image: none !important
-  .banner-principal__img
-    display: none !important
-  .bloque-texto-g 
-    padding-top: 50px !important;
-  .hcard
-    &-1
-      height: 480px !important
-  
-  
-//// TABLET MINI 768--------------------------------------
-@media screen and (max-width: $bp-min-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
 
-  
+.pasos-a__linea__esquina__linea 
+    border: 3px solid
+    width: 100%
+    position: relative
+    border-radius: 0px
+.pasos-a.color-primario .pasos-a__circle 
+    background-color: #00A8FF
+.pasos-a.color-primario .pasos-a__circle div 
+    color: black
+.pasos-a.color-primario .pasos-a__numero::after
+    border-left-color: #00A8FF
+.pasos-a.color-primario .pasos-a__linea .hor-line 
+    border-top-color: #00A8FF
+.pasos-a.color-primario .pasos-a__linea__esquina__linea 
+    border-color:#00A8FF
+@media only screen and (max-width: 767px)
+  .cel
+    display: none
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+  .cel
+    display: none
 
-//// MOBILE 576--------------------------------------
-@media screen and (max-width: $bp-min-sm)
-  .mb-cus
-    margin-bottom: 2em  !important
-  .banner-principal .tarjeta
-    background-color: $color-primario !important
-  .bloque-texto-g 
-    padding-top: 20px !important;
-  .hcard
-    &-1
-      height: auto !important
-  .mb-cus-2
-    margin-bottom: 2em  !important  
+
+.fa-check
+  color: #00A8FF
+
+
+
+
+
+
+
+
+
 

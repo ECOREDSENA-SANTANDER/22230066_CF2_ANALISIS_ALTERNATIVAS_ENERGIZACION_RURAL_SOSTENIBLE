@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Alternativas de energización rural.',
+    Name: 'Alternativas de energización rural',
     Description:
       'Este componente formativo introduce al aprendiz en el panorama de la energización en Colombia, con el propósito de establecer la base conceptual necesaria para el análisis de alternativas energéticas. El material aborda la problemática central de las Zonas No Interconectadas (ZNI), describiendo sus principales desafíos sociales, económicos y ambientales. Asimismo, presenta el marco institucional y normativo relevante, incluyendo el Ministerio de Minas y Energía (MME), el Instituto de Planificación y Promoción de Soluciones Energéticas (IPSE) y la Comisión de Regulación de Energía y Gas (CREG), junto con la clasificación de las fuentes de energía en convencionales y no convencionales. De esta manera, el aprendiz podrá describir e interpretar el escenario energético actual del país y comprender la justificación para la búsqueda de soluciones sostenibles y descentralizadas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -222,8 +222,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Lizeth Karina Manchego Suarez',
-          cargo: 'Desarrolladora <em>full stack</em>',
+          nombre: 'Pedro Alonso Bolivar González',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
