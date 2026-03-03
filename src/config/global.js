@@ -52,11 +52,13 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
+      /*
       {
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
       },
+      */
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -79,6 +81,7 @@ export default {
       },
     ],
   },
+  /*
   complementario: [
     {
       tema: 'Tipos de soluciones y sus componentes esenciales',
@@ -101,36 +104,37 @@ export default {
       link: 'https://www.youtube.com/watch?v=Og6C1HyeaBs',
     },
   ],
+  */
   glosario: [
     {
       termino: 'Biomasa',
       significado:
-        'recurso energético proveniente de residuos orgánicos de origen vegetal o animal, como restos agrícolas, forestales o estiércol. puede transformarse en energía térmica, eléctrica o biogás, aprovechando materiales disponibles localmente y reduciendo residuos.',
+        'recurso energético proveniente de residuos orgánicos de origen vegetal o animal, como restos agrícolas, forestales o estiércol. Puede transformarse en energía térmica, eléctrica o biogás, aprovechando materiales disponibles localmente y reduciendo residuos.',
     },
     {
       termino: 'Carbón mineral',
       significado:
-        'recurso energético fósil formado a partir de materia orgánica durante millones de años. es una fuente no renovable ampliamente utilizada en la generación de energía, pero con elevados niveles de contaminación y emisiones de gases de efecto invernadero.',
+        'recurso energético fósil formado a partir de materia orgánica durante millones de años. Es una fuente no renovable ampliamente utilizada en la generación de energía, pero con elevados niveles de contaminación y emisiones de gases de efecto invernadero.',
     },
     {
       termino: 'Diésel',
       significado:
-        'combustible fósil líquido derivado del petróleo, utilizado comúnmente para alimentar plantas eléctricas en zonas aisladas. aunque permite una generación rápida de energía, implica altos costos de operación, transporte complejo y fuerte impacto ambiental.',
+        'combustible fósil líquido derivado del petróleo, utilizado comúnmente para alimentar plantas eléctricas en zonas aisladas. Aunque permite una generación rápida de energía, implica altos costos de operación, transporte complejo y fuerte impacto ambiental.',
     },
     {
       termino: 'Fuente de energía convencional',
       significado:
-        'conjunto de fuentes energéticas tradicionales que han sustentado históricamente la producción eléctrica, principalmente basadas en combustibles fósiles. su uso intensivo genera dependencia económica y efectos negativos sobre el medio ambiente.',
+        'conjunto de fuentes energéticas tradicionales que han sustentado históricamente la producción eléctrica, principalmente basadas en combustibles fósiles. Su uso intensivo genera dependencia económica y efectos negativos sobre el medio ambiente.',
     },
     {
-      termino: 'Fuente de energía no convencional (FNC)',
+      termino: 'Fuente de energía No Convencional (FNC)',
       significado:
-        'fuentes energéticas alternativas que presentan menor impacto ambiental y mayor sostenibilidad. incluyen tecnologías renovables como la solar, eólica y biomasa, especialmente relevantes para contextos rurales y ZNI.',
+        'fuentes energéticas alternativas que presentan menor impacto ambiental y mayor sostenibilidad. Incluyen tecnologías renovables como la solar, eólica y biomasa, especialmente relevantes para contextos rurales y ZNI.',
     },
     {
       termino: 'Generación intermitente',
       significado:
-        'forma de prestación del servicio eléctrico en la cual el suministro no está disponible de manera continua durante el día. es característica de sistemas que dependen de combustibles fósiles o de recursos limitados.',
+        'forma de prestación del servicio eléctrico en la cual el suministro no está disponible de manera continua durante el día. Es característica de sistemas que dependen de combustibles fósiles o de recursos limitados.',
     },
     {
       termino: 'IPSE',
@@ -148,7 +152,7 @@ export default {
         'enfoque integral que busca garantizar el acceso permanente a la energía, equilibrando viabilidad económica, bienestar social y protección ambiental para las generaciones presentes y futuras.',
     },
     {
-      termino: 'Sistema interconectado nacional (SIN)',
+      termino: 'Sistema Interconectado Nacional (SIN)',
       significado:
         'infraestructura eléctrica centralizada que integra generación, transmisión y distribución de energía en gran parte del país, permitiendo un suministro continuo y estable a las zonas conectadas.',
     },
@@ -163,7 +167,8 @@ export default {
     {
       referencia:
         'Departamento Nacional de Planeación (DNP). (2022). Plan Nacional de Desarrollo 2022–2026: Colombia potencia mundial de la vida (Capítulo de transición energética).',
-      link: 'https://www.dnp.gov.co/plan-nacional-desarrollo/pnd-2022-2026',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Prensa/Publicaciones/plan-nacional-de-desarrollo-2022-2026-colombia-potencia-mundial-de-la-vida.pdf',
     },
     {
       referencia:

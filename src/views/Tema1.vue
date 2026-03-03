@@ -21,7 +21,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5
         .bg2.p-4.mb-lg-0.mb-4
-          p.mb-0 De acuerdo con Baker et al. (2001) [6], la valoración de alternativas implica la identificación y evaluación de distintos criterios, entre los que se pueden incluir el costo, la disponibilidad de recursos, el impacto ambiental, la sostenibilidad y el impacto social, entre otros. No obstante, se advierte que un número excesivo de criterios puede dificultar la realización de un análisis riguroso y eficaz. Por ello, se recomienda que los criterios seleccionados cumplan con las siguientes características:
+          p.mb-0 De acuerdo con Baker et al. (2001), la valoración de alternativas implica la identificación y evaluación de distintos criterios, entre los que se pueden incluir el costo, la disponibilidad de recursos, el impacto ambiental, la sostenibilidad y el impacto social, entre otros. No obstante, se advierte que un número excesivo de criterios puede dificultar la realización de un análisis riguroso y eficaz. Por ello, se recomienda que los criterios seleccionados cumplan con las siguientes características:
       .col-lg-7
         ul.lista-ul.mb-0
           li.d-flex.mb-2
@@ -52,13 +52,14 @@
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema1/3.png', alt='')
       .col-lg-8
-        p.mb-4 A nivel mundial se han desarrollado estudios relevantes que sirven como soporte para la toma de decisiones en la estructuración de proyectos de electrificación rural sostenible. Entre las metodologías más destacadas se encuentra la presentada en el artículo #[em “Rural electrification options in the Brazilian amazon: a multi-criteria analysis”] (2014) [7], en el cual se propone un enfoque de análisis multicriterio para evaluar distintas alternativas de electrificación.
+        p.mb-4 A nivel mundial se han desarrollado estudios relevantes que sirven como soporte para la toma de decisiones en la estructuración de proyectos de electrificación rural sostenible. Entre las metodologías más destacadas se encuentra la presentada en el artículo “Rural electrification options in the Brazilian amazon: a multi-criteria analysis” (2014), en el cual se propone un enfoque de análisis multicriterio para evaluar distintas alternativas de electrificación.
         .bg1.p-4.mb-0
           .row.justify-content-center.align-items.mb-lg-2.mt-lg-3
             .col-lg-2.col-md-2.col-5.mb-lg-0.mb-4
               img.img-t.img-a(src='@/assets/curso/tema1/4.svg', alt='')
             .col-lg-10.col-md-10
-                p.mb-0 Este estudio define un conjunto de dieciséis (16) criterios, agrupados en dimensiones técnicas, ambientales, sociales y económicas, aplicados a la evaluación de cinco (5) opciones de electrificación en zonas de la Amazonía brasileña (presentado en la figura 1). Dicho enfoque constituye una referencia metodológica valiosa para el análisis comparativo de alternativas energéticas en contextos rurales y aislados.
+              p.mb-0 Este estudio define un conjunto de dieciséis (16) criterios, agrupados en dimensiones técnicas, ambientales, sociales y económicas, aplicados a la evaluación de cinco (5) opciones de electrificación en zonas de la Amazonía brasileña (presentado en la tabla 1). Dicho enfoque constituye una referencia metodológica valiosa para el análisis comparativo de alternativas energéticas en contextos rurales y aislados.
+
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
@@ -67,8 +68,8 @@
           | Criterios seleccionados en artículo “Rural electrification options in the Brazilian amazon: a multi-criteria analysis”
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
-        .tabla-a.tab1
-          table
+        .table-responsive
+          table.tabla-a.tab1
             thead
               tr
                 th Dimensión
@@ -109,7 +110,7 @@
                     p.mb-0 • Servicios a proveer a la población.
         
               tr
-                td #[b Institucional / Político]
+                td #[b Institucional / político]
                 td
                   .row
                     p.mb-0 • Barreras institucionales.
@@ -121,7 +122,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-6
         .bg2.p-4.mb-lg-0.mb-4
-          p.mb-0.mx-lg-4.mt-lg-3.mb-lg-2 El estudio desarrollado por Juan C. Rojas-Zerpa y José M. Yusta, titulado #[em “Application of multicriteria decision methods for electric supply planning in rural and remote areas”] (2015), presenta una revisión comparativa de diversas metodologías de análisis multicriterio aplicadas a la planificación del suministro eléctrico en zonas rurales y remotas. Entre los principales aportes, los autores analizan las ventajas y desventajas de métodos como el Proceso Analítico Jerárquico (AHP) y el método VIKOR acrónimo de #[em VIseKriterijumska Optimizacija i Kompromisno Resenje] (Optimización Multicriterio y Solución de Compromiso, en serbio), el cual resulta especialmente útil en escenarios de selección complejos [8].
+          p.mb-0.mx-lg-4.mt-lg-3.mb-lg-2 El estudio desarrollado por Juan C. Rojas Zerpa y José M. Yusta, titulado “Application of multicriteria decision methods for electric supply planning in rural and remote areas” (2015), presenta una revisión comparativa de diversas metodologías de análisis multicriterio aplicadas a la planificación del suministro eléctrico en zonas rurales y remotas. Entre los principales aportes, los autores analizan las ventajas y desventajas de métodos como el Proceso Analítico Jerárquico (AHP) y el método VIKOR acrónimo de #[em VIseKriterijumska Optimizacija i Kompromisno Resenje] (Optimización Multicriterio y Solución de Compromiso, en serbio), el cual resulta especialmente útil en escenarios de selección complejos.
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/6.svg', alt='')
       .col-lg-3
@@ -133,19 +134,19 @@
       .col-lg-4.col-md-7.col-10.mb-lg-0.mb-4
         img(src='@/assets/curso/tema1/8.png', alt='')
       .col-lg-8
-        p.mb-4 Por su parte, investigadores de la Universidad Nacional de Colombia presentaron en 2016 el artículo “Matriz de selección de energías alternativas basada en análisis multiatributo para la conservación de pescado” [9], en el que proponen una metodología para seleccionar alternativas de generación de energía a partir de Fuentes No Convencionales de Energía Renovable (FNCER). Aunque esta propuesta no está orientada específicamente a las Zonas No Interconectadas (ZNI), resulta pertinente para el presente análisis, ya que emplea teorías de utilidad multiatributo para evaluar diferentes criterios y ofrecer una visión integral de cada alternativa energética.
-        p.mb-0 Los fundamentos metodológicos de este trabajo guardan similitud con la investigación desarrollada por F. Fuso Nerini, M. Howells, M. Bazilian y M. F. Gómez [7], en la medida en que ambos enfoques buscan integrar múltiples dimensiones de análisis para fortalecer la toma de decisiones en proyectos energéticos, como se ilustra a continuación:
+        p.mb-4 Por su parte, investigadores de la Universidad Nacional de Colombia presentaron en 2016 el artículo “Matriz de selección de energías alternativas basada en análisis multiatributo para la conservación de pescado”, en el que proponen una metodología para seleccionar alternativas de generación de energía a partir de Fuentes No Convencionales de Energía Renovable (FNCER). Aunque esta propuesta no está orientada específicamente a las Zonas No Interconectadas (ZNI), resulta pertinente para el presente análisis, ya que emplea teorías de utilidad multiatributo para evaluar diferentes criterios y ofrecer una visión integral de cada alternativa energética.
+        p.mb-0 Los fundamentos metodológicos de este trabajo guardan similitud con la investigación desarrollada por F. Fuso Nerini, M. Howells, M. Bazilian y M. F. Gómez, en la medida en que ambos enfoques buscan integrar múltiples dimensiones de análisis para fortalecer la toma de decisiones en proyectos energéticos, como se ilustra a continuación:
 
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto
           h5 Tabla 2. 
-          | Criterios seleccionados en articulo “matriz de selección de energías alternativas basada en análisis multiatributo para la conservación de pescado”
+          | Criterios seleccionados en articulo “Matriz de selección de energías alternativas basada en análisis multiatributo para la conservación de pescado”
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
-        .tabla-a.tab1
-          table
+        .table-responsive
+          table.tabla-a.tab1
             thead
               tr
                 th Dimensión
@@ -159,7 +160,7 @@
                     p.mb-0 • Insumos.
                     p.mb-0 • Mantenimiento.
                     p.mb-0 • Operación.
-         
+        
               tr
                 td #[b Tecnológicos]
                 td
@@ -169,7 +170,7 @@
                     p.mb-0 • Proveedores.
                     p.mb-0 • Capacitación.
                     p.mb-0 • Afectación ambiental.
-         
+        
               tr
                 td #[b Social]
                 td
@@ -177,7 +178,7 @@
                     p.mb-0 • Tipo de organización.
                     p.mb-0 • Apropiación de la tecnología.
                     p.mb-0 • Riesgo por orden público.
-         
+        
               tr
                 td #[b Ambiental]
                 td
@@ -202,7 +203,7 @@
             p.mb-0 Es importante resaltar que, en los estudios revisados, los criterios suelen ser calificados mediante puntuaciones o valoraciones de carácter subjetivo, definidas a partir de la experiencia y el juicio de los autores. Estas valoraciones se integran en una matriz de análisis de alternativas. Si bien la mayoría de los criterios pueden cuantificarse con relativa facilidad, algunos requieren la participación de múltiples actores para la definición de su importancia y la asignación de ponderaciones, lo que incrementa la complejidad en la estructuración del análisis.
 
 
-    p.mb-5(data-aos="fade-left") Con el fin de brindar un contexto general y sintetizar de manera gráfica las propuestas metodológicas desarrolladas por distintos autores en el análisis de alternativas energéticas [10], en el presente documento se presenta, a modo de referencia, un cuadro similar al que se presenta a continuación:
+    p.mb-4(data-aos="fade-left") Con el fin de brindar un contexto general y sintetizar de manera gráfica las propuestas metodológicas desarrolladas por distintos autores en el análisis de alternativas energéticas, a modo de referencia se presenta un cuadro similar:
 
 
     .bg3.p-lg-5.p-4.mb-5(data-aos="fade-right")
@@ -221,7 +222,7 @@
               p.mb-0 #[b • Puntaje total:] en esta columna se calculará el puntaje total de cada alternativa, que será la suma ponderada de las valoraciones en cada criterio.
 
     
-    p.mb-5(data-aos="fade-left") Asímismo, diferentes autores recomiendan realizar primero una aproximación a los recursos energéticos disponibles en la zona, tal como se evidencia en la tabla a continuación, con la intención de simplificar la selección de criterios y que el análisis de alternativas sea más sencillo.
+    p.mb-4(data-aos="fade-left") Asímismo, diferentes autores recomiendan realizar primero una aproximación a los recursos energéticos disponibles en la zona, tal como se evidencia en la tabla a continuación, con la intención de simplificar la selección de criterios y que el análisis de alternativas sea más sencillo.
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -229,8 +230,8 @@
         .titulo-sexto
           h5 Tabla 3. 
           | Aproximación a los recursos energéticos
-        .tabla-a.tab2
-          table
+        .table-responsive
+          table.tabla-a.tab2
             thead
               tr
                 th Puntuación
@@ -238,41 +239,36 @@
                 th Eólica
                 th Hidráulica
                 th Biomasa
-                th Interconexión al SIN
+                th Interconexión al Sistema Interconectado Nacional (SIN)
             tbody
-              tr
+              tr.gr
                 td 0
-                td Radiación solar global inferior a  3 kWh / m2 / día.
-                td Velocidad del viento entre  0 a 1.9 m / s.
-                td Sin información de caudal para.
+                td Radiación solar global inferior a 3 kWh/m#[sup 2]/día.
+                td Velocidad del viento entre 0 y 1.9 m/s.
+                td Sin información de caudal para evaluación del potencial hidroeléctrico.
                 td No hay posibilidad de adquirir el recurso.
                 td No hay posibilidad para ampliación de redes.
-        
-              tr
+              tr.bl
                 td 1
-                td Radiación solar global igual a 3 kWh / m2 / día y menor a 4 kWh / m2 / día.
-                td Velocidad del viento entre 2 a 3.9 m / s.
+                td Radiación solar global igual a 3 kWh/m#[sup 2]/día y menor a 4 kWh/m#[sup 2]/día.
+                td Velocidad del viento entre 2 y 3.9 m/s.
                 td Baja disponibilidad del recurso hídrico, conocimiento de caudal y de desnivel.
                 td Baja disponibilidad de recursos agrícolas, forestales, residuos urbanos
                 td Redes de interconexión a menos de 2 km de distancia.
-        
-              tr
+              tr.gr
                 td 2
-                td Radiación solar global igual a 4 kWh / m2 / día y menor a 4.5 kWh/m2/día.
-                td Velocidad del viento entre 4 a 7.9 m / s.
+                td Radiación solar global igual a 4 kWh/m#[sup 2]/día y menor a 4.5 kWh/m#[sup 2]/día.
+                td Velocidad del viento entre 4 y 7.9 m/s.
                 td -
                 td -
                 td Redes de interconexión a menos de 1 km de distancia.
-        
-              tr
+              tr.bl
                 td 3
-                td Radiación solar global igual o mayor a 4.5 kWh / m2 / día.
-                td Velocidad del viento igual o mayor a 8 m / s.
+                td Radiación solar global igual o mayor a 4.5 kWh/m#[sup 2]/día.
+                td Velocidad del viento igual o mayor a 8 m/s.
                 td Alta disponibilidad del recurso hídrico, conocimiento de caudal y de desnivel.
                 td Alta disponibilidad de recursos agrícolas, forestales, residuos urbanos.
                 td Redes de interconexión a menos de 500 m de distancia.
-
-
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8.mb-lg-0.mb-4
         .bg3.p-lg-5.p-4
@@ -287,8 +283,8 @@
         .titulo-sexto
           h5 Tabla 4. 
           | Tipos de soluciones descentralizadas para Zonas No Interconectadas (ZNI)
-        .tabla-a.tab3
-          table
+        .table-responsive
+          table.tabla-a.tab3
             thead
               tr
                 th Tipo de solución
@@ -332,26 +328,26 @@
         .titulo-sexto
           h5 Tabla 5. 
           | Componentes para la generación fotovoltaica
-        .tabla-a.tab4
-          table
+        .table-responsive
+          table.tabla-a.tab4
             thead
               tr
                 th Componente
-                th Función Primaria
-                th Implicación en el Sistema Aislado
+                th Función primaria
+                th Implicación en el sistema aislado
             tbody
               tr
-                td #[b Panel Fotovoltaico (Módulo)]
+                td #[b Panel fotovoltaico (módulo)]
                 td Generación: convierte la luz solar en electricidad de Corriente Directa (DC).
                 td Determina la potencia máxima que puede generar el sistema.
         
               tr
-                td #[b Batería o Banco de Almacenamiento]
+                td #[b Batería o banco de Almacenamiento]
                 td Almacenamiento: acumula la energía generada para ser utilizada durante la noche o en días nublados.
                 td Determina la autonomía y la cantidad de horas de servicio que se pueden ofrecer.
         
               tr
-                td #[b Controlador de Carga]
+                td #[b Controlador de carga]
                 td Protección y gestión: regula el flujo de energía del panel a la batería para evitar sobrecargas o descargas profundas.
                 td Esencial para prolongar la vida útil de las costosas baterías.
         

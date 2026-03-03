@@ -107,39 +107,36 @@ figcaption
   background-color: #E5F6FF
   border-radius: 14px
 
-
-.tabla-a thead 
+.tabla-a
+  thead
     border-top: 6px solid #00A8FF
     color: black
     background-color: #E5F6FF
-    text-align: center
-.tabla-a th
+  th
     border-color: #E5F6FF
-.tabla-a.tab1
-  table th 
-    padding: 20px 15px
-  table td 
+table.tabla-a
+  width: 100%
+  table-layout: fixed
+  td, th
+    white-space: normal
+    word-wrap: break-word
+    overflow-wrap: break-word
+    vertical-align: top
+    text-align: left !important
     padding: 16px 15px
-.tabla-a
-  table
-    width: 100%
-    table-layout: fixed      
-    border-collapse: collapse
-    @media only screen and (max-width: 767px)
-      min-width: 1200px 
-    @media only screen and (min-width: 768px) and (max-width: 1023px)
-      min-width: 1200px 
-    td, th
-      overflow-wrap: break-word
-      word-wrap: break-word
-      white-space: normal 
-      vertical-align: top
-      text-align: left
+  thead th
+    padding: 20px 15px
 .tab1
   th:nth-child(1) 
     width: 30%  
   th:nth-child(2) 
     width: 70%
+
+table.tabla-a
+  td, th
+    text-align: left !important
+
+
 .left
   text-align: left
 
@@ -147,18 +144,22 @@ figcaption
 .bg3
   background-color: #E5F6FF
 
-
+table.tabla-a.tab2
+  min-width: 800px
+.tabla-a
+    overflow-x: auto
+    display: block
 .tab2
   th:nth-child(1)
     width: 12%
   th:nth-child(2)
     width: 20%
   th:nth-child(3)
-    width: 16%
+    width: 14%
   th:nth-child(4)
-    width: 16%
+    width: 20%
   th:nth-child(5)
-    width: 16%
+    width: 14%
   th:nth-child(6)
     width: 20%
 

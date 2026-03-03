@@ -19,28 +19,28 @@
     
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
-      h3.mb-0 Herramienta de Planeación: Plan Indicativo de Cobertura (PIC)
+      h3.mb-0 Herramienta de planeación: Plan Indicativo de Cobertura (PIC)
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-8.mb-lg-0.mb-4
         .bg1.p-4
-          p.mb-4.mx-lg-5.mt-lg-2 El PIC, elaborado por la UPME, es clave para planificar la electrificación:
+          p.mb-4.mx-lg-5 El PIC, elaborado por la Unidad de Planeación Minero Energética (UPME), es clave para planificar la electrificación:
           h5.mb-2.mx-lg-5 • Propósito
           p.mb-4.mx-lg-5 Identificar áreas sin servicio eléctrico, establecer metas de expansión y priorizar tecnologías y recursos.
           h5.mb-2.mx-lg-5 • Utilidad
           p.mb-0.mx-lg-5 – Alinea proyectos locales con la estrategia nacional.
-          p.mb-0.mb-lg-3.mx-lg-5 – Facilita la obtención de apoyo institucional y financiación.
+          p.mb-0.mx-lg-5 – Facilita la obtención de apoyo institucional y financiación.
       .col-lg-4.col-md-7.col-10
         img(src='@/assets/curso/tema2/2.png', alt='')
-   
+  
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Criterios de viabilidad preliminar
     
 
-    p.mb-5.text-center(data-aos="fade-right") La valoración preliminar permite decidir la alternativa más adecuada según el contexto local. Los principales criterios son:
+    p.mb-5(data-aos="fade-right") La valoración preliminar permite decidir la alternativa más adecuada según el contexto local. Los principales criterios son:
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -71,7 +71,7 @@
               ul.lista-ul.mb-0
                 li.d-flex.mb-1
                   i.fas.fa-check
-                  p.mb-0 ERNC (solar / eólica): alto CAPEX, bajo OPEX.
+                  p.mb-0 Energías Renovables No Convencionales (ERNC) solar / eólica: alto CAPEX, bajo OPEX.
                 li.d-flex.mb-1
                   i.fas.fa-check
                   p.mb-0 Diésel: bajo CAPEX, alto OPEX por combustible.
@@ -121,12 +121,12 @@
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-12
           .titulo-sexto
-            h5 Figura 1. 
+            h5 Figura 2. 
             | Matriz de selección multiatributos general
-          img.img-a.img-t(src='@/assets/curso/tema2/7.svg', alt='Indica que la alternativa óptima se define como una función del recurso más abundante, un bajo costo operativo (OPEX) y la alineación con la demanda.')
+          img.img-a.img-t(src='@/assets/curso/tema2/7.png', alt='Indica que la alternativa óptima se define como una función del recurso más abundante, un bajo costo operativo (OPEX) y la alineación con la demanda.')
 
 
-    p.mb-0.text-center(data-aos="fade-left") El fin del proceso es seleccionar la tecnología que, bajo los criterios de sostenibilidad, garantice la mayor calidad de servicio con el menor costo recurrente.
+    p.mb-0(data-aos="fade-left") El fin del proceso es seleccionar la tecnología que, bajo los criterios de sostenibilidad, garantice la mayor calidad de servicio con el menor costo recurrente.
 
 
 </template>

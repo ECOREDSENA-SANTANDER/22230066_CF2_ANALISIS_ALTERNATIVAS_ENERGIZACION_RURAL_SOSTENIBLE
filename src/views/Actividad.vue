@@ -30,7 +30,7 @@ export default {
         {
           id: 1,
           texto:
-            'Un\tsistema aislado (off-grid) es la solución más adecuada para electrificar un poblado pequeño, ya que puede inyectar energía al Sistema Interconectado Nacional (SIN).',
+            'Un sistema aislado (<em>off-grid</em>) es la solución más adecuada para electrificar un poblado pequeño, ya que puede inyectar energía al Sistema Interconectado Nacional (SIN).',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -99,7 +99,7 @@ export default {
         {
           id: 4,
           texto:
-            'En la evaluación preliminar, el costo de operación y mantenimiento (OPEX) de una microrred solar fotovoltaica es generalmente mucho más alto que el OPEX de una Microrred basada en generación con diésel.',
+            'En la evaluación preliminar, el costo de operación y mantenimiento (OPEX) de una microrred solar fotovoltaica es generalmente mucho más alto que el OPEX de una microrred basada en generación con diésel.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
