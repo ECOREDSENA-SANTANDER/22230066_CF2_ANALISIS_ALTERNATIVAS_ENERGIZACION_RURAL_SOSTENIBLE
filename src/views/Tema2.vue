@@ -16,11 +16,9 @@
           .bloque-texto-g__texto.p-4.p-lg-5
             p.mb-0 Este componente aborda el saber de proceso de valorar (evaluar), proporcionando instrumentos de planeación y criterios prácticos para que el aprendiz tome decisiones informadas.
           
-    
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Herramienta de planeación: Plan Indicativo de Cobertura (PIC)
-
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-8.mb-lg-0.mb-4
@@ -34,14 +32,11 @@
       .col-lg-4.col-md-7.col-10
         img(src='@/assets/curso/tema2/2.png', alt='')
   
-
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Criterios de viabilidad preliminar
     
-
     p.mb-5(data-aos="fade-right") La valoración preliminar permite decidir la alternativa más adecuada según el contexto local. Los principales criterios son:
-
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-10
@@ -108,14 +103,11 @@
                   i.fas.fa-check
                   p.mb-0 Reduce dependencia de técnicos externos y mejora sostenibilidad.
 
-    
     .titulo.mb-5(data-aos="fade-right")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 El proceso de selección final
 
-
     p.mb-5(data-aos="fade-left") La #[b evaluación preliminar] culmina con la justificación técnica y económica de la alternativa elegida:
-
 
     .bg3.p-lg-5.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center.mb-0
@@ -124,7 +116,6 @@
             h5 Figura 2. 
             | Matriz de selección multiatributos general
           img.img-a.img-t(src='@/assets/curso/tema2/7.png', alt='Indica que la alternativa óptima se define como una función del recurso más abundante, un bajo costo operativo (OPEX) y la alineación con la demanda.')
-
 
     p.mb-0(data-aos="fade-left") El fin del proceso es seleccionar la tecnología que, bajo los criterios de sostenibilidad, garantice la mayor calidad de servicio con el menor costo recurrente.
 

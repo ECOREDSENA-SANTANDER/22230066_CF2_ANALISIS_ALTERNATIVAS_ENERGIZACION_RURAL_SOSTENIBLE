@@ -161,20 +161,17 @@ export default {
     {
       referencia:
         'Congreso de la República de Colombia. (2021). Ley 2099 de 2021: Por medio de la cual se dictan disposiciones para la transición energética, la dinamización del mercado energético, la reactivación económica del país y se dictan otras disposiciones. Diario Oficial No. 51.738.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=166326',
+      link: '',
     },
     {
       referencia:
         'Departamento Nacional de Planeación (DNP). (2022). Plan Nacional de Desarrollo 2022–2026: Colombia potencia mundial de la vida (Capítulo de transición energética).',
-      link:
-        'https://colaboracion.dnp.gov.co/CDT/Prensa/Publicaciones/plan-nacional-de-desarrollo-2022-2026-colombia-potencia-mundial-de-la-vida.pdf',
+      link: '',
     },
     {
       referencia:
         'Ellen MacArthur Foundation. (2017). Towards a circular economy: A business case for energy efficiency.',
-      link:
-        'https://content.ellenmacarthurfoundation.org/m/4384c08da576329c/original/Towards-a-circular-economy-Business-rationale-for-an-accelerated-transition.pdf',
+      link: '',
     },
     {
       referencia:
@@ -183,8 +180,7 @@ export default {
     {
       referencia:
         'Rincón, J. M., & Rincón, A. E. (2021). Análisis de ciclo de vida como herramienta de sostenibilidad en los proyectos de tratamientos de aguas. Revista de la Escuela Colombiana de Ingeniería, 120(2), 54–67.',
-      link:
-        'https://www.raco.cat/index.php/afinidad/article/download/276501/364433',
+      link: '',
     },
   ],
   creditos: [

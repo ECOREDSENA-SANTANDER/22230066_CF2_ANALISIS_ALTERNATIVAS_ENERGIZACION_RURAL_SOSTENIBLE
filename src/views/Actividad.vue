@@ -123,7 +123,7 @@ export default {
           id: 5,
           texto:
             'Las baterías son componentes esenciales de todo sistema de energía renovable, incluyendo aquellos que inyectan directamente a la red (generación distribuida).',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -146,7 +146,7 @@ export default {
           id: 6,
           texto:
             'El factor social y demanda es un criterio de viabilidad clave, ya que una mayor densidad de población puede hacer más atractiva la implementación de una microrred que de sistemas individuales.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -169,7 +169,7 @@ export default {
           id: 7,
           texto:
             'La principal diferencia entre el inversor y el controlador de carga es que el primero gestiona el flujo de energía hacia las baterías, y el segundo la convierte para uso doméstico.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -192,7 +192,7 @@ export default {
           id: 8,
           texto:
             'Para determinar la viabilidad preliminar de un proyecto eólico, la medición de la velocidad promedio del viento es un factor más relevante que el costo de los aerogeneradores.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -215,7 +215,7 @@ export default {
           id: 9,
           texto:
             'Un sistema de microrred es un ejemplo de generación distribuida que se recomienda para zonas rurales con cargas concentradas (poblados o centros productivos).',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -238,7 +238,7 @@ export default {
           id: 10,
           texto:
             'El objetivo de la evaluación preliminar es comparar el costo de inversión inicial (CAPEX) de las ERNC contra la intermitencia del servicio diésel existente.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
