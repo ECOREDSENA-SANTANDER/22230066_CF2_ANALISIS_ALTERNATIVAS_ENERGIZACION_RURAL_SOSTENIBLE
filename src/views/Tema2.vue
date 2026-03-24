@@ -114,7 +114,7 @@
         .col-lg-12
           .titulo-sexto
             h5 Figura 2. 
-            | Matriz de selección multiatributos general
+            | Evaluación preliminar
           img.img-a.img-t(src='@/assets/curso/tema2/7.png', alt='Indica que la alternativa óptima se define como una función del recurso más abundante, un bajo costo operativo (OPEX) y la alineación con la demanda.')
 
     p.mb-0(data-aos="fade-left") El fin del proceso es seleccionar la tecnología que, bajo los criterios de sostenibilidad, garantice la mayor calidad de servicio con el menor costo recurrente.
