@@ -25,242 +25,682 @@ export default {
         '<b> Objetivo:</b> evaluar la comprensión de los conceptos fundamentales del componente formativo.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO.',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
           texto:
-            'Un sistema aislado (<em>off-grid</em>) es la solución más adecuada para electrificar un poblado pequeño, ya que puede inyectar energía al Sistema Interconectado Nacional (SIN).',
+            'Un sistema aislado (<em>off-grid</em>) se caracteriza porque:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Está conectado permanentemente al Sistema Interconectado Nacional (SIN).',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Puede inyectar excedentes de energía a la red nacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Funciona de manera independiente sin conexión a la red eléctrica.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Depende exclusivamente de plantas diésel centrales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos del componente formativo.',
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
         },
         {
           id: 2,
           texto:
-            'El inversor es el componente de un sistema fotovoltaico cuya función principal es almacenar la energía generada durante las horas de sol.',
+            'La función principal del inversor en un sistema fotovoltaico es:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Almacenar la energía en baterías.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Convertir corriente continua (DC) en corriente alterna (AC).',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Regular la carga de las baterías.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Medir la radiación solar.', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos del componente formativo.',
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
         },
         {
           id: 3,
           texto:
-            'El Plan Indicativo de Cobertura (PIC) debe ser consultado por los promotores de proyectos porque este instrumento contiene la información precisa de los costos de inversión (CAPEX) de cada tecnología.',
+            'El Plan Indicativo de Cobertura (PIC) es importante porque este:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Define los costos exactos de inversión de cada tecnología.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Sustituye los estudios técnicos de viabilidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Presenta lineamientos y proyecciones para ampliar cobertura energética.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Garantiza la aprobación automática de proyectos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos del componente formativo.',
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
         },
         {
           id: 4,
           texto:
-            'En la evaluación preliminar, el costo de operación y mantenimiento (OPEX) de una microrred solar fotovoltaica es generalmente mucho más alto que el OPEX de una microrred basada en generación con diésel.',
+            'En comparación con sistemas diésel, una microrred solar fotovoltaica generalmente presenta:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Mayor costo de operación y mantenimiento.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Igual costo operativo en todos los casos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Menor costo de operación y mantenimiento a largo plazo.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Dependencia total del combustible fósil.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos del componente formativo.',
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
         },
         {
           id: 5,
           texto:
-            'Las baterías son componentes esenciales de todo sistema de energía renovable, incluyendo aquellos que inyectan directamente a la red (generación distribuida).',
+            'Las baterías en sistemas de generación distribuida conectados a red:',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Son obligatorias en todos los casos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Son necesarias para convertir la energía.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'No siempre son necesarias, depende del diseño del sistema.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reemplazan la función del inversor.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos del componente formativo.',
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
         },
         {
           id: 6,
-          texto:
-            'El factor social y demanda es un criterio de viabilidad clave, ya que una mayor densidad de población puede hacer más atractiva la implementación de una microrred que de sistemas individuales.',
+          texto: 'Un criterio social clave para implementar una microrred es:',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'La distancia a la capital del departamento.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La densidad poblacional y concentración de demanda.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El color de las viviendas del poblado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El número de postes instalados.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos del componente formativo.',
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
         },
         {
           id: 7,
-          texto:
-            'La principal diferencia entre el inversor y el controlador de carga es que el primero gestiona el flujo de energía hacia las baterías, y el segundo la convierte para uso doméstico.',
+          texto: 'La principal función del controlador de carga es:',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Convertir corriente continua en alterna.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Almacenar energía en la red pública.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Regular el flujo de energía hacia las baterías para protegerlas.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Medir la velocidad del viento.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos del componente formativo.',
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
         },
         {
           id: 8,
           texto:
-            'Para determinar la viabilidad preliminar de un proyecto eólico, la medición de la velocidad promedio del viento es un factor más relevante que el costo de los aerogeneradores.',
+            'En la evaluación preliminar de un proyecto eólico, es fundamental analizar primero:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'El costo del transporte del personal.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La velocidad promedio y calidad del recurso eólico.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El número de viviendas del municipio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El precio del diésel en la región.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos del componente formativo.',
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
         },
         {
           id: 9,
-          texto:
-            'Un sistema de microrred es un ejemplo de generación distribuida que se recomienda para zonas rurales con cargas concentradas (poblados o centros productivos).',
+          texto: 'Una microrred es recomendable cuando:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Las cargas están dispersas en grandes distancias.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'No existe ningún tipo de demanda energética.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Hay concentración de usuarios en una zona rural.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Se busca inyectar energía directamente al SIN desde una gran hidroeléctrica.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos del componente formativo.',
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
         },
         {
           id: 10,
-          texto:
-            'El objetivo de la evaluación preliminar es comparar el costo de inversión inicial (CAPEX) de las ERNC contra la intermitencia del servicio diésel existente.',
+          texto: 'El propósito principal de una evaluación preliminar es:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Diseñar el plano eléctrico definitivo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Comparar alternativas técnicas, económicas y sociales para determinar viabilidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Ejecutar la instalación inmediata del sistema.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir el estudio financiero detallado.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Ha captado con claridad los conceptos del componente formativo.',
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
+        },
+        {
+          id: 11,
+          texto:
+            'La principal ventaja de utilizar energías renovables en Zonas No Interconectadas (ZNI) es que:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminan totalmente la necesidad de mantenimiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Permiten generar energía limpia y reducir la dependencia del diésel.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Funcionan únicamente durante la noche.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituyen completamente las redes eléctricas urbanas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
+        },
+        {
+          id: 12,
+          texto:
+            'El Sistema Interconectado Nacional (SIN) en Colombia se refiere a:',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Un conjunto de sistemas aislados que funcionan independientemente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La red eléctrica que interconecta gran parte del territorio nacional.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Un sistema exclusivo para energías renovables.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Una red utilizada únicamente por las industrias.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
+        },
+        {
+          id: 13,
+          texto:
+            'Una característica de los sistemas híbridos de generación energética es que:',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Utilizan una sola fuente de energía.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Combinan dos o más fuentes de generación, como solar y diésel.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Funcionan únicamente con energía hidráulica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No requieren sistemas de control.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
+        },
+        {
+          id: 14,
+          texto:
+            'En un sistema fotovoltaico, los paneles solares tienen como función:',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Convertir la energía solar en energía eléctrica.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Transformar corriente alterna en continua.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Almacenar energía en baterías.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Distribuir la energía a la red nacional.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
+        },
+        {
+          id: 15,
+          texto:
+            'Uno de los criterios técnicos más importantes para instalar un sistema solar fotovoltaico es:',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La cercanía a centros comerciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La disponibilidad y nivel de radiación solar del lugar.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El número de carreteras cercanas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La cantidad de postes eléctricos existentes.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
+        },
+        {
+          id: 16,
+          texto: 'El recurso eólico se refiere a:',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La cantidad de radiación solar disponible.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La disponibilidad y comportamiento del viento en una zona.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'La cantidad de agua disponible para generación eléctrica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El consumo energético de una comunidad.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
+        },
+        {
+          id: 17,
+          texto:
+            'Una ventaja de las microrredes en comunidades rurales es que:',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Permiten suministrar energía de forma local y autónoma.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminan la necesidad de generación eléctrica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Funcionan únicamente con combustibles fósiles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Solo pueden instalarse en ciudades.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
+        },
+        {
+          id: 18,
+          texto: 'El análisis de demanda energética en una comunidad permite:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Determinar cuántos paneles solares se deben instalar sin estudios adicionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Identificar el consumo de energía y dimensionar el sistema adecuado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir la evaluación técnica del proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar la necesidad de baterías.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
+        },
+        {
+          id: 19,
+          texto:
+            'En un proyecto de energización rural, el análisis económico permite:',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Definir el color de los paneles solares.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Estimar costos, beneficios y viabilidad financiera del proyecto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir el análisis técnico del sistema.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Determinar la velocidad del viento.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
+        },
+        {
+          id: 20,
+          texto:
+            'Las energías renovables no convencionales (ERNC) se caracterizan por:',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Ser fuentes de energía que se regeneran naturalmente y tienen menor impacto ambiental.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Depender exclusivamente del carbón.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ser utilizadas únicamente en ciudades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No requerir estudios técnicos para su implementación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Ha captado con claridad los conceptos de Alternativas de energización rural.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo Alternativas de energización rural.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        '¡Excelente trabajo! Posee una buena comprensión sobre los conceptos fundamentales para el desarrollo del componente.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'Mensaje cuando el porcentaje de respuestas correctas es inferior al 70 %	No ha superado la actividad. Se recomienda volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
