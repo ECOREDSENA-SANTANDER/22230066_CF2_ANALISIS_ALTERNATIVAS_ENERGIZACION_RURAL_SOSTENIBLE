@@ -62,10 +62,10 @@
         .titulo-sexto
           h5 Tabla 1. 
           | Criterios seleccionados en artículo “Rural electrification options in the Brazilian amazon: a multi-criteria analysis”
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-end.mb-5(data-aos="fade-left")
       .col-lg-8
-        .table-responsive
-          table.tabla-a.tab1
+        .tabla-a.tabla-peq.tabla1
+          table
             thead
               tr
                 th Dimensión
@@ -132,10 +132,10 @@
         .titulo-sexto
           h5 Tabla 2. 
           | Criterios seleccionados en articulo “Matriz de selección de energías alternativas basada en análisis multiatributo para la conservación de pescado”
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-end.mb-5(data-aos="fade-left")
       .col-lg-8
-        .table-responsive
-          table.tabla-a.tab1
+        .tabla-a.tabla-peq.tabla1
+          table
             thead
               tr
                 th Dimensión
@@ -211,8 +211,8 @@
         .titulo-sexto
           h5 Tabla 3. 
           | Aproximación a los recursos energéticos
-        .table-responsive
-          table.tabla-a.tab2
+        .tabla-a.tab2
+          table
             thead
               tr
                 th Puntuación
@@ -263,8 +263,8 @@
         .titulo-sexto
           h5 Tabla 4. 
           | Tipos de soluciones descentralizadas para Zonas No Interconectadas (ZNI)
-        .table-responsive
-          table.tabla-a.tab3
+        .tabla-a.tab3
+          table
             thead
               tr
                 th Tipo de solución
@@ -303,8 +303,8 @@
         .titulo-sexto
           h5 Tabla 5. 
           | Componentes para la generación fotovoltaica
-        .table-responsive
-          table.tabla-a.tab4
+        .tabla-a.tab4
+          table
             thead
               tr
                 th Componente
