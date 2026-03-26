@@ -698,9 +698,9 @@ export default {
         },
       ],
       mensaje_final_aprobado:
-        '¡Excelente trabajo! Posee una buena comprensión sobre los conceptos fundamentales para el desarrollo del componente.',
+        'Posee una buena comprensión sobre los conceptos fundamentales para el desarrollo del componente.',
       mensaje_final_reprobado:
-        'Mensaje cuando el porcentaje de respuestas correctas es inferior al 70 %	No ha superado la actividad. Se recomienda volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'Se recomienda volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
