@@ -81,30 +81,6 @@ export default {
       },
     ],
   },
-  /*
-  complementario: [
-    {
-      tema: 'Tipos de soluciones y sus componentes esenciales',
-      referencia:
-        'Suministros del Sol. (2018). Cómo funciona una instalación solar aislada',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=BgUuwP1x9Hg',
-    },
-    {
-      tema: 'Marco normativo e institucional',
-      referencia: 'IPSE EnergiaZNI. (2023). Qué son las zonas interconectadas',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=4BBWlQXeBX0',
-    },
-    {
-      tema: 'Marco normativo e institucional',
-      referencia:
-        'EcologíaVerde. (2018). ENERGÍAS RENOVABLES y NO RENOVABLES - Tipos de energía',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Og6C1HyeaBs',
-    },
-  ],
-  */
   glosario: [
     {
       termino: 'Biomasa',
@@ -190,7 +166,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
@@ -243,7 +219,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '-- ',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
