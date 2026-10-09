@@ -43,17 +43,17 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        img(src='@/assets/curso/tema1/2.png', alt='')
+        img(src='@/assets/curso/tema1/2.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/3.png', alt='')
+        img(src='@/assets/curso/tema1/3.png')
       .col-lg-8
         p.mb-4 A nivel mundial se han desarrollado estudios relevantes que sirven como soporte para la toma de decisiones en la estructuración de proyectos de electrificación rural sostenible. Entre las metodologías más destacadas se encuentra la presentada en el artículo “Rural electrification options in the Brazilian amazon: a multi-criteria analysis” (2014), en el cual se propone un enfoque de análisis multicriterio para evaluar distintas alternativas de electrificación.
         .bg1.p-4.mb-0
           .row.justify-content-center.align-items.mb-lg-2.mt-lg-3
             .col-lg-2.col-md-2.col-5.mb-lg-0.mb-4
-              img.img-t.img-a(src='@/assets/curso/tema1/4.svg', alt='')
+              img.img-t.img-a(src='@/assets/curso/tema1/4.svg')
             .col-lg-10.col-md-10
               p.mb-0 Este estudio define un conjunto de dieciséis (16) criterios, agrupados en dimensiones técnicas, ambientales, sociales y económicas, aplicados a la evaluación de cinco (5) opciones de electrificación en zonas de la Amazonía brasileña (presentado en la tabla 1). Dicho enfoque constituye una referencia metodológica valiosa para el análisis comparativo de alternativas energéticas en contextos rurales y aislados.
 
@@ -72,7 +72,7 @@
                 th Criterios considerados
             tbody
               tr
-                td #[b Técnico]
+                td Técnico
                 td
                   .row
                     p.mb-0 • Fiabilidad del sistema.
@@ -80,7 +80,7 @@
                     p.mb-0 • Escalabilidad.
                     p.mb-0 • Requerimientos de operación y mantenimiento (O&M).
               tr
-                td #[b Económico]
+                td Económico
                 td
                   .row
                     p.mb-0 • Costos de inversión (CAPEX).
@@ -88,41 +88,41 @@
                     p.mb-0 • Beneficios económicos.
                     p.mb-0 • Accesibilidad a financiación.
               tr
-                td #[b Ambiental]
+                td Ambiental
                 td
                   .row
                     p.mb-0 • Emisiones de Gases de Efecto Invernadero (GEI).
                     p.mb-0 • Requerimientos de terreno.
                     p.mb-0 • Estrés o afectación sobre el ecosistema.
               tr
-                td #[b Social]
+                td Social
                 td
                   .row
                     p.mb-0 • Presencia de emisiones peligrosas para la salud.
                     p.mb-0 • Generación de empleo local.
                     p.mb-0 • Servicios a proveer a la población.
               tr
-                td #[b Institucional / político]
+                td Institucional / político
                 td
                   .row
                     p.mb-0 • Barreras institucionales.
                     p.mb-0 • Beneficios e incentivos.
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/5.png', alt='')
+        img(src='@/assets/curso/tema1/5.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-6
         .bg2.p-4.mb-lg-0.mb-4
           p.mb-0.mx-lg-4.mt-lg-3.mb-lg-2 El estudio desarrollado por Juan C. Rojas Zerpa y José M. Yusta, titulado “Application of multicriteria decision methods for electric supply planning in rural and remote areas” (2015), presenta una revisión comparativa de diversas metodologías de análisis multicriterio aplicadas a la planificación del suministro eléctrico en zonas rurales y remotas. Entre los principales aportes, los autores analizan las ventajas y desventajas de métodos como el Proceso Analítico Jerárquico (AHP) y el método VIKOR acrónimo de #[em VIseKriterijumska Optimizacija i Kompromisno Resenje] (Optimización Multicriterio y Solución de Compromiso, en serbio), el cual resulta especialmente útil en escenarios de selección complejos.
       .col-lg-3.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/6.svg', alt='')
+        img(src='@/assets/curso/tema1/6.svg')
       .col-lg-3
-        img.img-t.mb-2.d-none.d-lg-block(src='@/assets/curso/tema1/7.svg', alt='')
+        img.img-t.mb-2.d-none.d-lg-block(src='@/assets/curso/tema1/7.svg')
         p.mb-0 Si bien el análisis estructurado propuesto en este estudio puede resultar complejo para su implementación en contextos con disponibilidad limitada de información, el trabajo destaca la importancia de contar con herramientas que permitan apoyar la toma de decisiones de manera más objetiva y acertada en proyectos de electrificación rural.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-4.col-md-7.col-10.mb-lg-0.mb-4
-        img(src='@/assets/curso/tema1/8.png', alt='')
+        img(src='@/assets/curso/tema1/8.png')
       .col-lg-8
         p.mb-4 Por su parte, investigadores de la Universidad Nacional de Colombia presentaron en 2016 el artículo “Matriz de selección de energías alternativas basada en análisis multiatributo para la conservación de pescado”, en el que proponen una metodología para seleccionar alternativas de generación de energía a partir de Fuentes No Convencionales de Energía Renovable (FNCER). Aunque esta propuesta no está orientada específicamente a las Zonas No Interconectadas (ZNI), resulta pertinente para el presente análisis, ya que emplea teorías de utilidad multiatributo para evaluar diferentes criterios y ofrecer una visión integral de cada alternativa energética.
         p.mb-0 Los fundamentos metodológicos de este trabajo guardan similitud con la investigación desarrollada por F. Fuso Nerini, M. Howells, M. Bazilian y M. F. Gómez, en la medida en que ambos enfoques buscan integrar múltiples dimensiones de análisis para fortalecer la toma de decisiones en proyectos energéticos, como se ilustra a continuación:
@@ -142,7 +142,7 @@
                 th Criterios considerados
             tbody
               tr
-                td #[b Económicos]
+                td Económicos
                 td
                   .row
                     p.mb-0 • Inversión inicial.
@@ -150,7 +150,7 @@
                     p.mb-0 • Mantenimiento.
                     p.mb-0 • Operación.
               tr
-                td #[b Tecnológicos]
+                td Tecnológicos
                 td
                   .row
                     p.mb-0 • Tiempo de instalación.
@@ -159,14 +159,14 @@
                     p.mb-0 • Capacitación.
                     p.mb-0 • Afectación ambiental.
               tr
-                td #[b Social]
+                td Social
                 td
                   .row
                     p.mb-0 • Tipo de organización.
                     p.mb-0 • Apropiación de la tecnología.
                     p.mb-0 • Riesgo por orden público.
               tr
-                td #[b Ambiental]
+                td Ambiental
                 td
                   .row
                     p.mb-0 • Uso del terreno.
@@ -174,16 +174,16 @@
                     p.mb-0 • Manejo de residuos generados.
                     p.mb-0 • Afectación a vertientes de agua.
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/9.png', alt='')
+        img(src='@/assets/curso/tema1/9.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/10.png', alt='')
+        img(src='@/assets/curso/tema1/10.png')
       .col-lg-8
         p.mb-lg-3.mb-4 Estos métodos permiten identificar y evaluar criterios clave como la disponibilidad del recurso energético, los costos económicos, el impacto ambiental, la confiabilidad del suministro y la viabilidad técnica de las alternativas. No obstante, resulta fundamental adaptar la metodología seleccionada a las características particulares de cada contexto rural, así como considerar, cuando sea pertinente, la combinación de varias metodologías con el fin de lograr una evaluación más completa y equilibrada de las opciones energéticas. Asimismo, debe tenerse en cuenta la disponibilidad de información y de recursos técnicos necesarios para desarrollar el análisis de manera adecuada.
         .row.justify-content-center.mb-0
           .col-lg-1.col-md-2.mb-lg-0.mb-4
-            img.img-a.img-t(src='@/assets/curso/tema1/11.svg', alt='')
+            img.img-a.img-t(src='@/assets/curso/tema1/11.svg')
           .col-lg-11.col-md-10
             p.mb-0 Es importante resaltar que, en los estudios revisados, los criterios suelen ser calificados mediante puntuaciones o valoraciones de carácter subjetivo, definidas a partir de la experiencia y el juicio de los autores. Estas valoraciones se integran en una matriz de análisis de alternativas. Si bien la mayoría de los criterios pueden cuantificarse con relativa facilidad, algunos requieren la participación de múltiples actores para la definición de su importancia y la asignación de ponderaciones, lo que incrementa la complejidad en la estructuración del análisis.
 
@@ -256,7 +256,7 @@
           p.mb-3 La complejidad de los estudios analizados evidencia el interés de los autores por profundizar en la selección de tecnologías de aprovechamiento energético para zonas rurales. Sin embargo, en muchos casos estas metodologías no son plenamente aplicadas debido a la dificultad para acceder a la información requerida, lo que puede retrasar la formulación y estructuración de proyectos de electrificación.
           p.mb-0 En este contexto, el presente componente desarrolla el #[b saber conceptual] sobre los #[b componentes esenciales] y los #[b tipos de soluciones de energización], permitiendo al aprendiz comprender cómo se estructuran los sistemas de generación aislada e identificar sus principales elementos. De esta manera, se busca facilitar el análisis y la aplicación práctica de alternativas tecnológicas en entornos rurales.
       .col-lg-4.col-md-7.col-10
-        img(src='@/assets/curso/tema1/13.png', alt='')
+        img(src='@/assets/curso/tema1/13.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -274,26 +274,26 @@
                 th Aplicabilidad en ZNI
             tbody
               tr
-                td #[b Sistemas aislados (#[em off-grid]) / sistemas solares domésticos (SHS)]
+                td Sistemas aislados (#[em off-grid]) / sistemas solares domésticos (SHS)
                 td Sistemas de generación totalmente independientes que abastecen una carga individual, sin conexión al SIN.
                 td Un solo usuario (vivienda, puesto de salud, escuela rural).
                 td Usuarios ubicados en zonas muy remotas, con demandas energéticas básicas como iluminación, radio, televisión y carga de dispositivos móviles.
                 td Alta. Son una de las soluciones más comunes en ZNI dispersas y de baja demanda.
               tr
-                td #[b Microrredes (#[i mini - grids])]
+                td Microrredes (#[i mini - grids])
                 td Pequeñas redes eléctricas que operan de manera autónoma, desconectadas del SIN, y distribuyen energía a varios usuarios.
                 td Grupo limitado de usuarios (poblado, comunidad, centro productivo o barrio).
                 td Zonas con densidad poblacional media o con cargas productivas concentradas, donde se requiere mayor potencia y continuidad del servicio.
                 td Muy alta. Son una solución eficiente y escalable para comunidades rurales organizadas.
               tr
-                td #[b Generación distribuida (#[em on - grid])]
+                td Generación distribuida (#[em on - grid])
                 td Sistemas de generación que se conectan directamente a la red del Sistema Interconectado Nacional (SIN).
                 td Usuarios conectados a la red eléctrica nacional.
                 td Contextos urbanos o rurales con acceso a la infraestructura del SIN.
                 td Baja o nula. No es relevante para ZNI, ya que estas zonas carecen de conexión al SIN por definición.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Componentes esenciales de la generación fotovoltaica
 
     p.mb-5(data-aos="fade-right") La solución solar es la más común en ZNI. Conocer sus componentes es fundamental para el diagnóstico técnico.
@@ -312,19 +312,19 @@
                 th Implicación en el sistema aislado
             tbody
               tr
-                td #[b Panel fotovoltaico (módulo)]
+                td Panel fotovoltaico (módulo)
                 td Generación: convierte la luz solar en electricidad de Corriente Directa (DC).
                 td Determina la potencia máxima que puede generar el sistema.
               tr
-                td #[b Batería o banco de Almacenamiento]
+                td Batería o banco de Almacenamiento
                 td Almacenamiento: acumula la energía generada para ser utilizada durante la noche o en días nublados.
                 td Determina la autonomía y la cantidad de horas de servicio que se pueden ofrecer.
               tr
-                td #[b Controlador de carga]
+                td Controlador de carga
                 td Protección y gestión: regula el flujo de energía del panel a la batería para evitar sobrecargas o descargas profundas.
                 td Esencial para prolongar la vida útil de las costosas baterías.
               tr
-                td #[b Inversor]
+                td Inversor
                 td Conversión: transforma la Corriente Directa (DC) almacenada en la batería en Corriente Alterna (AC), utilizable por electrodomésticos estándar.
                 td Se requiere solo si los aparatos a usar necesitan energía AC (ejemplo: nevera, ventilador).
         

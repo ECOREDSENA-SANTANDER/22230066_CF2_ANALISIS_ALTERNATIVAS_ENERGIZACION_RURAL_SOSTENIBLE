@@ -17,7 +17,7 @@
             p.mb-0 Este componente aborda el saber de proceso de valorar (evaluar), proporcionando instrumentos de planeación y criterios prácticos para que el aprendiz tome decisiones informadas.
           
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Herramienta de planeación: Plan Indicativo de Cobertura (PIC)
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -30,10 +30,10 @@
           p.mb-0.mx-lg-5 – Alinea proyectos locales con la estrategia nacional.
           p.mb-0.mx-lg-5 – Facilita la obtención de apoyo institucional y financiación.
       .col-lg-4.col-md-7.col-10
-        img(src='@/assets/curso/tema2/2.png', alt='')
+        img(src='@/assets/curso/tema2/2.png')
   
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Criterios de viabilidad preliminar
     
     p.mb-5(data-aos="fade-right") La valoración preliminar permite decidir la alternativa más adecuada según el contexto local. Los principales criterios son:
@@ -56,11 +56,11 @@
                   p.mb-0 Se prioriza el recurso más estable y abundante. 
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/3.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/3.png')
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/4.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/4.png')
             .col-lg-7.text-start
               h4 Costo inicial versus costo operacional
               ul.lista-ul.mb-0
@@ -88,11 +88,11 @@
                   p.mb-0 Baja demanda dispersa: sistema individual.
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/5.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/5.png')
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/6.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/6.png')
             .col-lg-7.text-start
               h4 Capacidad de mantenimiento local
               ul.lista-ul.mb-0
@@ -104,7 +104,7 @@
                   p.mb-0 Reduce dependencia de técnicos externos y mejora sostenibilidad.
 
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 El proceso de selección final
 
     p.mb-5(data-aos="fade-left") La #[b evaluación preliminar] culmina con la justificación técnica y económica de la alternativa elegida:
