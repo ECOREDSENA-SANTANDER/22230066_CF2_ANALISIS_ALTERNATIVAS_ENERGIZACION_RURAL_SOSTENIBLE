@@ -14,7 +14,7 @@
       .col-lg-8
         p.mb-4 Este material da inicio a la fase de análisis y evaluación del programa. Una vez establecido el contexto de las Zonas No Interconectadas (ZNI), la problemática asociada al uso del diésel y el marco normativo colombiano (RA1), el proceso formativo avanza hacia la aplicación práctica de los conocimientos y la toma de decisiones fundamentadas.
         .bg1.p-4.mb-4
-          .row.justify-content-center.align-items.mb-lg-2.mt-lg-2
+          .row.justify-content-center.align-items-center.mb-lg-2.mt-lg-2
             .col-lg-2.col-md-2.col-5.mb-lg-0.mb-4
               img.img-t.img-a(src='@/assets/curso/intro/2.svg')
             .col-lg-10.col-md-10

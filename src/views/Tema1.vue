@@ -51,19 +51,17 @@
       .col-lg-8
         p.mb-4 A nivel mundial se han desarrollado estudios relevantes que sirven como soporte para la toma de decisiones en la estructuración de proyectos de electrificación rural sostenible. Entre las metodologías más destacadas se encuentra la presentada en el artículo “Rural electrification options in the Brazilian amazon: a multi-criteria analysis” (2014), en el cual se propone un enfoque de análisis multicriterio para evaluar distintas alternativas de electrificación.
         .bg1.p-4.mb-0
-          .row.justify-content-center.align-items.mb-lg-2.mt-lg-3
+          .row.justify-content-center.align-items-center.mb-lg-2.mt-lg-3
             .col-lg-2.col-md-2.col-5.mb-lg-0.mb-4
               img.img-t.img-a(src='@/assets/curso/tema1/4.svg')
             .col-lg-10.col-md-10
               p.mb-0 Este estudio define un conjunto de dieciséis (16) criterios, agrupados en dimensiones técnicas, ambientales, sociales y económicas, aplicados a la evaluación de cinco (5) opciones de electrificación en zonas de la Amazonía brasileña (presentado en la tabla 1). Dicho enfoque constituye una referencia metodológica valiosa para el análisis comparativo de alternativas energéticas en contextos rurales y aislados.
 
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto
           h5 Tabla 1. 
           | Criterios seleccionados en artículo “Rural electrification options in the Brazilian amazon: a multi-criteria analysis”
-    .row.justify-content-center.align-items-end.mb-5(data-aos="fade-left")
-      .col-lg-8
         .tabla-a.tabla-peq.tabla1
           table
             thead
@@ -107,18 +105,14 @@
                   .row
                     p.mb-0 • Barreras institucionales.
                     p.mb-0 • Beneficios e incentivos.
-      .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/5.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-6
+      .col-lg-9
         .bg2.p-4.mb-lg-0.mb-4
-          p.mb-0.mx-lg-4.mt-lg-3.mb-lg-2 El estudio desarrollado por Juan C. Rojas Zerpa y José M. Yusta, titulado “Application of multicriteria decision methods for electric supply planning in rural and remote areas” (2015), presenta una revisión comparativa de diversas metodologías de análisis multicriterio aplicadas a la planificación del suministro eléctrico en zonas rurales y remotas. Entre los principales aportes, los autores analizan las ventajas y desventajas de métodos como el Proceso Analítico Jerárquico (AHP) y el método VIKOR acrónimo de #[em VIseKriterijumska Optimizacija i Kompromisno Resenje] (Optimización Multicriterio y Solución de Compromiso, en serbio), el cual resulta especialmente útil en escenarios de selección complejos.
+          p.mb-4.mx-lg-4.mt-lg-3 El estudio desarrollado por Juan C. Rojas Zerpa y José M. Yusta, titulado “Application of multicriteria decision methods for electric supply planning in rural and remote areas” (2015), presenta una revisión comparativa de diversas metodologías de análisis multicriterio aplicadas a la planificación del suministro eléctrico en zonas rurales y remotas. Entre los principales aportes, los autores analizan las ventajas y desventajas de métodos como el Proceso Analítico Jerárquico (AHP) y el método VIKOR acrónimo de #[em VIseKriterijumska Optimizacija i Kompromisno Resenje] (Optimización Multicriterio y Solución de Compromiso, en serbio), el cual resulta especialmente útil en escenarios de selección complejos.
+          p.mb-0.mx-lg-4.mb-lg-2 Si bien el análisis estructurado propuesto en este estudio puede resultar complejo para su implementación en contextos con disponibilidad limitada de información, el trabajo destaca la importancia de contar con herramientas que permitan apoyar la toma de decisiones de manera más objetiva y acertada en proyectos de electrificación rural.
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/6.svg')
-      .col-lg-3
-        img.img-t.mb-2.d-none.d-lg-block(src='@/assets/curso/tema1/7.svg')
-        p.mb-0 Si bien el análisis estructurado propuesto en este estudio puede resultar complejo para su implementación en contextos con disponibilidad limitada de información, el trabajo destaca la importancia de contar con herramientas que permitan apoyar la toma de decisiones de manera más objetiva y acertada en proyectos de electrificación rural.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-4.col-md-7.col-10.mb-lg-0.mb-4
@@ -127,13 +121,11 @@
         p.mb-4 Por su parte, investigadores de la Universidad Nacional de Colombia presentaron en 2016 el artículo “Matriz de selección de energías alternativas basada en análisis multiatributo para la conservación de pescado”, en el que proponen una metodología para seleccionar alternativas de generación de energía a partir de Fuentes No Convencionales de Energía Renovable (FNCER). Aunque esta propuesta no está orientada específicamente a las Zonas No Interconectadas (ZNI), resulta pertinente para el presente análisis, ya que emplea teorías de utilidad multiatributo para evaluar diferentes criterios y ofrecer una visión integral de cada alternativa energética.
         p.mb-0 Los fundamentos metodológicos de este trabajo guardan similitud con la investigación desarrollada por F. Fuso Nerini, M. Howells, M. Bazilian y M. F. Gómez, en la medida en que ambos enfoques buscan integrar múltiples dimensiones de análisis para fortalecer la toma de decisiones en proyectos energéticos, como se ilustra a continuación:
 
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto
           h5 Tabla 2. 
           | Criterios seleccionados en articulo “Matriz de selección de energías alternativas basada en análisis multiatributo para la conservación de pescado”
-    .row.justify-content-center.align-items-end.mb-5(data-aos="fade-left")
-      .col-lg-8
         .tabla-a.tabla-peq.tabla1
           table
             thead
@@ -173,17 +165,15 @@
                     p.mb-0 • Emisiones.
                     p.mb-0 • Manejo de residuos generados.
                     p.mb-0 • Afectación a vertientes de agua.
-      .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/9.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema1/10.png')
       .col-lg-8
         p.mb-lg-3.mb-4 Estos métodos permiten identificar y evaluar criterios clave como la disponibilidad del recurso energético, los costos económicos, el impacto ambiental, la confiabilidad del suministro y la viabilidad técnica de las alternativas. No obstante, resulta fundamental adaptar la metodología seleccionada a las características particulares de cada contexto rural, así como considerar, cuando sea pertinente, la combinación de varias metodologías con el fin de lograr una evaluación más completa y equilibrada de las opciones energéticas. Asimismo, debe tenerse en cuenta la disponibilidad de información y de recursos técnicos necesarios para desarrollar el análisis de manera adecuada.
-        .row.justify-content-center.mb-0
+        .row.justify-content-center.align-items-center.mb-0
           .col-lg-1.col-md-2.mb-lg-0.mb-4
-            img.img-a.img-t(src='@/assets/curso/tema1/11.svg')
+            img.img-t.img-a(src='@/assets/curso/tema1/11.svg')
           .col-lg-11.col-md-10
             p.mb-0 Es importante resaltar que, en los estudios revisados, los criterios suelen ser calificados mediante puntuaciones o valoraciones de carácter subjetivo, definidas a partir de la experiencia y el juicio de los autores. Estas valoraciones se integran en una matriz de análisis de alternativas. Si bien la mayoría de los criterios pueden cuantificarse con relativa facilidad, algunos requieren la participación de múltiples actores para la definición de su importancia y la asignación de ponderaciones, lo que incrementa la complejidad en la estructuración del análisis.
 

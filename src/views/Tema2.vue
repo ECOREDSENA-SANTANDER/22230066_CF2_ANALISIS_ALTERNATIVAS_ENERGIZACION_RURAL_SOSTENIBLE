@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/1.png')})`}"
           )
           .bloque-texto-g__texto.p-4.p-lg-5
-            p.mb-0 Este componente aborda el saber de proceso de valorar (evaluar), proporcionando instrumentos de planeación y criterios prácticos para que el aprendiz tome decisiones informadas.
+            p.mb-0 En este apartado se aborda el saber relacionado con el proceso de valoración (evaluación), proporcionando instrumentos de planeación y criterios prácticos que permiten al aprendiz tomar decisiones informadas.
           
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')")
@@ -27,8 +27,8 @@
           h5.mb-2.mx-lg-5 • Propósito
           p.mb-4.mx-lg-5 Identificar áreas sin servicio eléctrico, establecer metas de expansión y priorizar tecnologías y recursos.
           h5.mb-2.mx-lg-5 • Utilidad
-          p.mb-0.mx-lg-5 – Alinea proyectos locales con la estrategia nacional.
-          p.mb-0.mx-lg-5 – Facilita la obtención de apoyo institucional y financiación.
+          p.mb-0.mx-lg-5.ps-lg-2 • Alinea proyectos locales con la estrategia nacional.
+          p.mb-0.mx-lg-5.ps-lg-2 • Facilita la obtención de apoyo institucional y financiación.
       .col-lg-4.col-md-7.col-10
         img(src='@/assets/curso/tema2/2.png')
   
