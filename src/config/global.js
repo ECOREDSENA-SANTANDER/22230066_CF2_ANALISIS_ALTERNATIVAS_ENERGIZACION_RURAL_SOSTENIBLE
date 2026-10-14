@@ -67,7 +67,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/22230066_CF2_DU.pdf',
+        download: 'downloads/22230066_CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -165,7 +165,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
+          cargo:
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -215,7 +216,7 @@ export default {
       autores: [
         {
           nombre: 'Erika Daniela Manrique Rueda',
-          cargo: 'Validadora y vinculadora de recursos educativos digitales',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
